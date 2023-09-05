@@ -1,0 +1,14 @@
+h1, h2{
+    text-align: center;    
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    border-color: blue;
+}
