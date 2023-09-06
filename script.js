@@ -16,9 +16,9 @@ const allSections = document.querySelectorAll('#main section');
 
 // console.log(homeSection.id);
 
-allSections.forEach(function(section) {
+/* allSections.forEach(function(section) {
     console.log(section.id);
-});
+}); */
 
 navMenu.addEventListener('click', function(event) {
     event.preventDefault();
@@ -29,8 +29,18 @@ navMenu.addEventListener('click', function(event) {
     // console.log(clickedLink.innerText.toLowerCase());
     
     if (clickedLink.innerText.toLowerCase() !== 'contact') {
+
+        allSections.forEach(function(section) {
+            if (section.id === clickedLink.innerText.toLowerCase()) {
+                section.classList.remove('hidden');
+            } else {
+                section.classList.add('hidden');
+            };
+            console.log(section.id);
+        });
+
         const docSection = document.getElementById(clickedLink.innerText.toLowerCase());
-        // console.log(docSection.id);
+        console.log(docSection.id);
     };
 
 
