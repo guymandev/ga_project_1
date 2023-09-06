@@ -36,11 +36,11 @@ navMenu.addEventListener('click', function(event) {
             } else {
                 section.classList.add('hidden');
             };
-            console.log(section.id);
+            // console.log(section.id);
         });
 
-        const docSection = document.getElementById(clickedLink.innerText.toLowerCase());
-        console.log(docSection.id);
+        // const docSection = document.getElementById(clickedLink.innerText.toLowerCase());
+        // console.log(docSection.id);
     };
 
 
