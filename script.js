@@ -23,14 +23,26 @@ navMenu.addEventListener('click', function(event) {
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btnContact = document.getElementById("btnContact");
+var btnEnter = document.getElementById('btnEnter');
+
+// Get input boxes
+var iptName = document.getElementById('iptName');
+var iptEmail = document.getElementById('iptEmail');
+// console.log(iptName.id);
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
-btn.onclick = function() {
+btnContact.onclick = function() {
   modal.style.display = "block";
+}
+
+btnEnter.onclick = function () {
+  console.log(iptName.value);
+  console.log(iptEmail.value);
+  modal.style.display = "none";
 }
 
 // When the user clicks on <span> (x), close the modal

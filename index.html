@@ -42,7 +42,7 @@
                 border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Contact</a> -->
                 
                 <!-- Trigger/Open The Modal -->
-                <button id="myBtn" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white 
+                <button id="btnContact" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white 
                 border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Contact</button>
 
                 <!-- The Modal -->
@@ -54,8 +54,15 @@
                         <p>Please enter your info...</p>
                         <br>
                         <div class="flex justify-start">
-                            <label for="mytext">Name:</label>
-                            <input type="text" id="mytext" name="mytext" class="border">
+                            <label for="mytext" class="ml-2">Name:</label>
+                            <input type="text" id="iptName" name="mytext" class="border ml-5">                            
+                            <br>
+                            <label for="mytext" class="ml-2">Email:</label>
+                            <input type="text" id="iptEmail" name="mytext" class="border ml-5">
+                            <div>
+                                <button id="btnEnter" class="inline-block p-2 leading-none border rounded text-black 
+                                        border-black hover:border-transparent hover:text-teal-500 hover:bg-white ml-8 mt-4 lg:mt-0">Enter</button>
+                            </div>
                         </div>
                     </div>                    
                 </div>
