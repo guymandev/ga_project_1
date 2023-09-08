@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- Flowbite  -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js" defer></script>
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js" defer></script> -->
+
     <script src="script.js" defer></script>
     
     <title>Document</title>
 
 </head>
-<body class="no-top-padding">
+<body>
     <nav id="menu" class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
             <div class="text-sm lg:flex-grow">
@@ -54,26 +55,25 @@
                         <br>
                         <div class="flex justify-start">
                             <label for="mytext">Name:</label>
-                            <input type="text" id="mytext" name="mytext">
+                            <input type="text" id="mytext" name="mytext" class="border">
                         </div>
-                    </div>
-                    <div>
-                        <input >
-                    </div>
+                    </div>                    
                 </div>
 
             </div>
         </div>
     </nav>     
     <br>
-    <section id="main" class="radial-blue">
-        <section id="home" class="border">
-            <img src="fili-santillan-1HCb2gPk3ik-unsplash.jpg" alt="react code" class="bg-gradient-to-b bg-opacity-50">
-            <p class="text-center">Home</p>
-            <br>
-            <h1 class="text-3xl">Guy Jara</h1>
-            <br>
-            <h2 class="text-2xl">Senior Software Developer</h2> 
+    <section id="main" class="radial-blue h-full">
+        <section id="home" class="border">            
+            <!-- <img src="fili-santillan-1HCb2gPk3ik-unsplash.jpg" alt="react code"> -->
+            <div class="justify-center">
+                <p class="text-center">Home</p>
+                <br>
+                <h1 class="text-3xl">Guy Jara</h1>
+                <br>
+                <h2 class="text-2xl">Senior Software Developer</h2> 
+            </div>
         </section>
         <br>
         <section id="about" class="hidden border dark:bg-slate-800 rounded-lg px-6">

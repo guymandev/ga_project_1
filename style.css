@@ -2,6 +2,14 @@ h1, h2{
     text-align: center;    
 }
 
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+}
+
 /* h1 {
     font-size: 20px;
 }
@@ -17,9 +25,9 @@ h1, h2{
     background: radial-gradient(lightyellow, skyblue);
 }
 
-.no-top-padding{ 
+/* .no-top-padding{ 
     padding-top: 0 !important
-}
+} */
 
 /* The Modal (background) */
 .modal {
